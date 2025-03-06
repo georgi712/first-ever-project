@@ -1,0 +1,296 @@
+/* 
+Primary Hex #106A46 Pantone 19-6026
+Secondary Hex #106A46 Pantone 19-6026
+Accent Hex #A6BB05 Pantone 14-0452
+Background Hex #FFFFFF Pantone 11-0601 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital@1&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #106a46;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%),
+    0 1px 3px 0 rgb(0 0 0 / 20%);
+  padding: 12px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header .logo {
+  margin-right: 50px;
+  height: 50px;
+}
+
+.navigation {
+  margin-right: auto;
+}
+
+.navigation .list {
+  display: flex;
+  gap: 16px;
+}
+
+.navigation .nav-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  all: unset;
+  padding: 4px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn.btn-search {
+  margin-right: 12px;
+}
+.about {
+  margin-top: 30px;
+  text-align: center;
+}
+.about h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.img_about img {
+  margin: 0 10px;
+}
+.img_about {
+  display: inline;
+}
+/* .button {
+  background-color: #1c1c1c;
+  padding: 20px;
+  height: 65px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
+}
+.button a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: middle;
+} */
+.button:hover {
+  background-color: #106a46;
+}
+footer {
+  background-color: #106a46;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+}
+.col1 {
+  width: 20%;
+  margin: 20px 10px;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+.col1 h3 {
+  font-weight: 800;
+}
+.col2 {
+  width: 20%;
+  margin: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+.col3 {
+  width: 20%;
+  margin: 20px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.col2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.col3 a {
+  color: #fff;
+  text-decoration: none;
+}
+.col3 i {
+  display: block;
+  margin-top: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.card {
+  display: inline-block;
+  max-width: 380px;
+  aspect-ratio: 1/1;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  border: 2px solid black;
+}
+.card img {
+  height: 300px;
+  width: 280px;
+}
+.card .img-bg {
+  height: 300px;
+  width: 300px;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -380px;
+  height: 380px;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  transition: bottom 300ms ease-in-out;
+
+  background-color: rgba(220, 220, 220, 0.5);
+}
+.button {
+  width: 150px;
+  height: 50px;
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  border-radius: 6px;
+}
+.button a {
+  text-decoration: none;
+  color: #fff;
+}
+.card .content .title {
+  font-size: 22px;
+  text-align: center;
+}
+
+.card .content .desc {
+  height: 191px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* HOVER EFFECT */
+.card:hover .content {
+  bottom: 0px;
+}
+.banner {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding: 50px;
+  color: #fff;
+  background-image: url("https://shopperintelligence.com/wp-content/uploads/2021/07/Organic-fruits-and-vegetables.jpg");
+}
+.banner p {
+  vertical-align: middle;
+}
+.overlay {
+  background-color: #106a4684;
+  width: 100%;
+  height: 100px;
+}
+.mytext {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  font-size: 64px;
+  padding: 50px;
+  position: relative;
+  top: -37px;
+}
+/* .displa_flex{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 70%;
+}
+.col-md-6{
+  display: inline;
+  margin-right: 10px;
+  margin-bottom: 20px;
+} */
+.categories {
+  width: 20%;
+  display: inline-flex;
+}
+.displa_flex {
+  width: 70%;
+}
+.col-lg-9 {
+  display: inline-flex;
+}
+.row.g-4 {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.price_box {
+  border: 0px solid;
+  background: transparent;
+  color: rgb(116, 125, 136);
+}
+footer h2 {
+  color: #fff;
+}
+.container.py-5 {
+  display: block;
+  margin: 0 auto;
+}
+.personel{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0;
+}
+.personal_image{
+  display: inline;
+}
+.personel img {
+  
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  display: inline;
+  vertical-align: top;
+}
+.personal_info {
+  display: inline-block;
+  
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #000000;
+  height: 500px;
+  box-sizing: border-box;
+}
+.personal_info h1{
+  padding: 30px;
+}
+.personal_info p{
+  padding: 0 40px 40px 40px;
+}
